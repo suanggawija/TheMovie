@@ -1,81 +1,109 @@
 {
-    "posts": [
-        { 
-            "id": "1", 
-            "title":"Monster University", 
-            "desc": "Monsters University adalah sebuah film komedi animasi komputer 3D Amerika Serikat yang diproduksi oleh Pixar Animation Studios dan dirilis oleh Walt Disney Pictures.", 
-            "image": "/images/thumb.webp",
-            "videoLink" : "xBzPioph8CI"
-        },
-        { 
-            "id": "2", 
-            "title":"Moana", 
-            "desc": "Moana 2 adalah sebuah film animasi musikal Amerika Serikat tahun 2024 yang diproduksi Walt Disney Animation Studios untuk Walt Disney Pictures",
-            "image": "/images/moana.webp",
-            "videoLink" : "hDZ7y8RP5HE"
-        },
-        { 
-            "id": "3", 
-            "title":"InsideOut2", 
-            "desc": "Inside Out 2 adalah film animasi remaja Amerika Serikat tahun 2024 yang diproduksi oleh Pixar Animation Studios untuk Walt Disney Pictures. Sekuel dari Inside Out, disutradarai oleh Kelsey Mann, diproduksi oleh Mark Nielsen, dan ditulis oleh Meg LeFauve.", 
-            "image": "/images/insideOut2.webp",
-            "videoLink" : "xBzPioph8CI" 
-        },
-        { 
-            "id": "4", 
-            "title":"Cars 2", 
-            "desc": "Cars 2 adalah film animasi komputer-3D Amerika Serikat yang diproduksi oleh Pixar Animation Studios dan didistribusikan oleh Walt Disney Studios.", 
-            "image": "/images/cars2.webp" ,
-            "videoLink" : "lg5hj2c5Nkk"
-        },
-        { 
-            "id": "5", 
-            "title":"Coco", 
-            "desc": "Terlepas dari larangan musik yang membingungkan keluarganya, Miguel bermimpi untuk menjadi musisi berprestasi seperti idolanya, Ernesto de la Cruz. Putus asa untuk membuktikan bakatnya, Miguel menemukan dirinya berada di alam baka yang menakjubkan dan penuh warna", 
-            "image": "/images/coco.webp" ,
-            "videoLink" : "xlnPHQ3TLX8"
-        },
-        { 
-            "id": "6", 
-            "title":"Frozen", 
-            "desc": "Frozen adalah film fantasi musikal animasi komputer 3D Amerika 2013 yang diproduksi oleh Walt Disney Animation Studios dan dirilis oleh Walt Disney Pictures. ", 
-            "image": "/images/frozen.webp",
-            "videoLink" : "TbQm5doF_Uc" 
-        },
-        { 
-            "id": "7", 
-            "title":"Luca", 
-            "desc": "Luca adalah sebuah film animasi-komputer fantasi remaja Amerika Serikat yang akan dirilis dan diproduksi oleh Walt Disney Pictures dan Pixar Animation Studios dan didistribusikan oleh Walt Disney Studios Motion Pictures.", 
-            "image": "/images/luca.webp",
-            "videoLink" : "mYfJxlgR2jw"
-        },
-        { 
-            "id": "8", 
-            "title":"Toy Story", 
-            "desc": "Toy Story adalah film komedi animasi komputer Amerika tahun 1995 yang diproduksi oleh Pixar Animation Studios dan dirilis oleh Walt Disney Pictures. ", 
-            "image": "/images/toyStory.webp",
-            "videoLink" : "wmiIUN-7qhE" 
-        },
-        { 
-            "id": "9", 
-            "title":"Up", 
-            "desc": "Up adalah film petualangan komedi-drama animasi Amerika Serikat tahun 2009 yang diproduksi oleh Pixar Animation Studios",
-            "image": "/images/up.webp",
-            "videoLink" : "HWEW_qTLSEE" 
-        },
-        {
-            "id": "10", 
-            "title":"Zootopia", 
-            "desc": "Zootopia adalah film animasi 3D Amerika Serikat tahun 2016 yang disutradarai oleh Byron Howard dan Rich Moore serta diproduseri oleh Clark Spencer. ", 
-            "image": "/images/zootopia.webp",
-            "videoLink" : "jWM0ct-OLsM"
-        }
-    ],
-        "comments": [
-            { "id": "1", "text": "a comment about post 1", "postId": "1" },
-            { "id": "2", "text": "another comment about post 1", "postId": "1" }
-        ],
-        "profile": {
-            "name": "typicode"
-        }
+  "posts": [
+    {
+      "id": "1",
+      "title": "Monster University",
+      "desc": "Monsters University adalah sebuah film komedi animasi komputer 3D Amerika Serikat yang diproduksi oleh Pixar Animation Studios dan dirilis oleh Walt Disney Pictures.",
+      "image": "/images/thumb.webp",
+      "videoLink": "xBzPioph8CI",
+      "like": 12,
+      "dislike": 2
+    },
+    {
+      "id": "2",
+      "title": "Moana",
+      "desc": "Moana 2 adalah sebuah film animasi musikal Amerika Serikat tahun 2024 yang diproduksi Walt Disney Animation Studios untuk Walt Disney Pictures",
+      "image": "/images/moana.webp",
+      "videoLink": "hDZ7y8RP5HE",
+      "like": 12,
+      "dislike": 1
+    },
+    {
+      "id": "3",
+      "title": "InsideOut2",
+      "desc": "Inside Out 2 adalah film animasi remaja Amerika Serikat tahun 2024 yang diproduksi oleh Pixar Animation Studios untuk Walt Disney Pictures. Sekuel dari Inside Out, disutradarai oleh Kelsey Mann, diproduksi oleh Mark Nielsen, dan ditulis oleh Meg LeFauve.",
+      "image": "/images/insideOut2.webp",
+      "videoLink": "xBzPioph8CI",
+      "like": 14,
+      "dislike": 1
+    },
+    {
+      "id": "4",
+      "title": "Cars 2",
+      "desc": "Cars 2 adalah film animasi komputer-3D Amerika Serikat yang diproduksi oleh Pixar Animation Studios dan didistribusikan oleh Walt Disney Studios.",
+      "image": "/images/cars2.webp",
+      "videoLink": "lg5hj2c5Nkk",
+      "like": 12,
+      "dislike": 1
+    },
+    {
+      "id": "5",
+      "title": "Coco",
+      "desc": "Terlepas dari larangan musik yang membingungkan keluarganya, Miguel bermimpi untuk menjadi musisi berprestasi seperti idolanya, Ernesto de la Cruz. Putus asa untuk membuktikan bakatnya, Miguel menemukan dirinya berada di alam baka yang menakjubkan dan penuh warna",
+      "image": "/images/coco.webp",
+      "videoLink": "xlnPHQ3TLX8",
+      "like": 12,
+      "dislike": 2
+    },
+    {
+      "id": "6",
+      "title": "Frozen",
+      "desc": "Frozen adalah film fantasi musikal animasi komputer 3D Amerika 2013 yang diproduksi oleh Walt Disney Animation Studios dan dirilis oleh Walt Disney Pictures. ",
+      "image": "/images/frozen.webp",
+      "videoLink": "TbQm5doF_Uc",
+      "like": 12,
+      "dislike": 1
+    },
+    {
+      "id": "7",
+      "title": "Luca",
+      "desc": "Luca adalah sebuah film animasi-komputer fantasi remaja Amerika Serikat yang akan dirilis dan diproduksi oleh Walt Disney Pictures dan Pixar Animation Studios dan didistribusikan oleh Walt Disney Studios Motion Pictures.",
+      "image": "/images/luca.webp",
+      "videoLink": "mYfJxlgR2jw",
+      "like": 12,
+      "dislike": 1
+    },
+    {
+      "id": "8",
+      "title": "Toy Story",
+      "desc": "Toy Story adalah film komedi animasi komputer Amerika tahun 1995 yang diproduksi oleh Pixar Animation Studios dan dirilis oleh Walt Disney Pictures. ",
+      "image": "/images/toyStory.webp",
+      "videoLink": "wmiIUN-7qhE",
+      "like": 12,
+      "dislike": 1
+    },
+    {
+      "id": "9",
+      "title": "Up",
+      "desc": "Up adalah film petualangan komedi-drama animasi Amerika Serikat tahun 2009 yang diproduksi oleh Pixar Animation Studios",
+      "image": "/images/up.webp",
+      "videoLink": "HWEW_qTLSEE",
+      "like": 12,
+      "dislike": 2
+    },
+    {
+      "id": "10",
+      "title": "Zootopia",
+      "desc": "Zootopia adalah film animasi 3D Amerika Serikat tahun 2016 yang disutradarai oleh Byron Howard dan Rich Moore serta diproduseri oleh Clark Spencer. ",
+      "image": "/images/zootopia.webp",
+      "videoLink": "jWM0ct-OLsM",
+      "like": 12,
+      "dislike": 1
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "text": "a comment about post 1",
+      "postId": "1"
+    },
+    {
+      "id": "2",
+      "text": "another comment about post 1",
+      "postId": "1"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
   }
+}

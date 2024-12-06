@@ -29,7 +29,7 @@ const DetailMovie = () => {
             content={post.desc}
           />
         </Helmet>
-        <VideoBenner image={post.image} videoLink={post.videoLink}/>
+        <VideoBenner id={post.id} image={post.image} videoLink={post.videoLink} like={post.like} dislike={post.dislike}/>
         <h1 className='my-5 text-white text-5xl font-semibold'>{post.title}</h1>
         <div className='flex gap-3'>
             <p className='px-3 py-1 bg-white rounded-full text-black text-sm bg-opacity-60'>Fantasy</p>
