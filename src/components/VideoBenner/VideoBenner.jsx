@@ -4,17 +4,18 @@ import { IoCaretForwardCircle} from "react-icons/io5";
 import { AiOutlineLike, AiOutlineDislike, AiFillLike, AiFillDislike, AiOutlineComment  } from "react-icons/ai";
 import YoutubePlayer from '../YoutubePlayer/YoutubePlayer';
 
-const VideoBenner = () => {
+const VideoBenner = (props) => {
   const [playVideo, setPlayVideo] = useState(false)
 
   const videoOnClik = () => {
     setPlayVideo(true)
   }
+  // console.log(props)
   return (
     <div>
       {!playVideo ? (
         <div className='w-full h-[480px] overflow-hidden rounded-2xl relative'>
-            <img src={ImageThumb} alt="Benner" className='w-full h-full object-cover'/>
+            <img src={props.image} alt="Benner" className='w-full h-full object-cover'/>
             <div className='w-full  h-full absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black p-5'>
             <div className='flex w-full h-full justify-center items-center'>
                 <button onClick={videoOnClik} className="text-7xl text-white hover:text-gray-200 transition-all divide-purple-300"><IoCaretForwardCircle/></button>
@@ -23,7 +24,7 @@ const VideoBenner = () => {
         </div>
       ) : (
         <div className='w-full h-[480px] overflow-hidden rounded-2xl'>
-            <YoutubePlayer/>
+            <YoutubePlayer videoLink={props.videoLink}/>
         </div>
       )}
         <div className='flex gap-3 text-white mt-5'>

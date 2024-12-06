@@ -11,7 +11,7 @@ const RoutesComponent = () => {
           <Route index element={<Home />} />
           <Route path='/explore' element={<Home/>}/>
           <Route path='/favorite' element={<Home/>}/>
-          <Route path='/detailMovie' element={<DetailMovie/>}/>
+          <Route path='/detailMovie/:id' element={<DetailMovie/>}/>
         </Route>
       </Routes>
     </Router>
