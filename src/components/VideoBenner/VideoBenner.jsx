@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import ImageThumb from '../../assets/images/thumb.webp'
 import { IoCaretForwardCircle} from "react-icons/io5";
 import { AiOutlineLike, AiOutlineDislike, AiFillLike, AiFillDislike, AiOutlineComment  } from "react-icons/ai";
 import YoutubePlayer from '../YoutubePlayer/YoutubePlayer';
