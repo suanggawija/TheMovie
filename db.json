@@ -6,8 +6,8 @@
       "desc": "Monsters University adalah sebuah film komedi animasi komputer 3D Amerika Serikat yang diproduksi oleh Pixar Animation Studios dan dirilis oleh Walt Disney Pictures.",
       "image": "/images/thumb.webp",
       "videoLink": "xBzPioph8CI",
-      "like": 12,
-      "dislike": 2
+      "like": 13,
+      "dislike": 3
     },
     {
       "id": "2",
@@ -42,7 +42,7 @@
       "desc": "Terlepas dari larangan musik yang membingungkan keluarganya, Miguel bermimpi untuk menjadi musisi berprestasi seperti idolanya, Ernesto de la Cruz. Putus asa untuk membuktikan bakatnya, Miguel menemukan dirinya berada di alam baka yang menakjubkan dan penuh warna",
       "image": "/images/coco.webp",
       "videoLink": "xlnPHQ3TLX8",
-      "like": 12,
+      "like": 13,
       "dislike": 2
     },
     {
@@ -52,7 +52,7 @@
       "image": "/images/frozen.webp",
       "videoLink": "TbQm5doF_Uc",
       "like": 12,
-      "dislike": 1
+      "dislike": 2
     },
     {
       "id": "7",
@@ -69,7 +69,7 @@
       "desc": "Toy Story adalah film komedi animasi komputer Amerika tahun 1995 yang diproduksi oleh Pixar Animation Studios dan dirilis oleh Walt Disney Pictures. ",
       "image": "/images/toyStory.webp",
       "videoLink": "wmiIUN-7qhE",
-      "like": 12,
+      "like": 13,
       "dislike": 1
     },
     {
@@ -78,7 +78,7 @@
       "desc": "Up adalah film petualangan komedi-drama animasi Amerika Serikat tahun 2009 yang diproduksi oleh Pixar Animation Studios",
       "image": "/images/up.webp",
       "videoLink": "HWEW_qTLSEE",
-      "like": 12,
+      "like": 13,
       "dislike": 2
     },
     {
@@ -87,7 +87,7 @@
       "desc": "Zootopia adalah film animasi 3D Amerika Serikat tahun 2016 yang disutradarai oleh Byron Howard dan Rich Moore serta diproduseri oleh Clark Spencer. ",
       "image": "/images/zootopia.webp",
       "videoLink": "jWM0ct-OLsM",
-      "like": 12,
+      "like": 13,
       "dislike": 1
     }
   ],

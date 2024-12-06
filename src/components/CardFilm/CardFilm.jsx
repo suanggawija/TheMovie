@@ -15,7 +15,7 @@ const CardFilm = (props) => {
         effect="blur" />
       <div
         className="absolute bottom-0 left-0 right-0 top-0 bg-gradient-to-t from-black text-white text-sm font-semibold p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-        <div className="flex gap-2 flex-col w-full h-full justify-center items-center text-lg">
+        <div className="flex gap-2 flex-col w-full h-full justify-center items-center text-xl">
           <div className="text-ellipsis overflow-hidden whitespace-nowrap">{props.title}</div>
           <button className="text-gray-800 text-lg font-bold bg-white rounded-full px-3 py-1 flex items-center gap-2">
             <IoCaretForwardCircle /> Watch Now
