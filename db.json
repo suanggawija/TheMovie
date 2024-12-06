@@ -1,0 +1,21 @@
+{
+    "posts": [
+      { "id": "1", "title":"Monster University", "desc": "100", "image": "MonsterUnivercityImage" },
+      { "id": "2", "title":"Moana", "desc": "200", "image": "MoanaImage" },
+      { "id": "3", "title":"InsideOut2", "desc": "200", "image": "InsideOut2" },
+      { "id": "4", "title":"Monster University", "desc": "100", "image": "MonsterUnivercityImage" },
+      { "id": "5", "title":"Moana", "desc": "200", "image": "MoanaImage" },
+      { "id": "6", "title":"InsideOut2", "desc": "200", "image": "InsideOut2" },
+      { "id": "7", "title":"Monster University", "desc": "100", "image": "MonsterUnivercityImage" },
+      { "id": "8", "title":"Moana", "desc": "200", "image": "MoanaImage" },
+      { "id": "9", "title":"InsideOut2", "desc": "200", "image": "InsideOut2" },
+      { "id": "10", "title":"InsideOut2", "desc": "200", "image": "InsideOut2" }
+    ],
+    "comments": [
+      { "id": "1", "text": "a comment about post 1", "postId": "1" },
+      { "id": "2", "text": "another comment about post 1", "postId": "1" }
+    ],
+    "profile": {
+      "name": "typicode"
+    }
+  }
