@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { VideoBenner } from '../../components'
 import { useParams } from "react-router-dom"; 
 import axios from 'axios'
+import { Helmet } from 'react-helmet';
 
 const DetailMovie = () => {
   const { id } = useParams();
@@ -21,6 +22,13 @@ const DetailMovie = () => {
   console.log(post.image)
   return (
     <div>
+        <Helmet>
+          <title>{post.title}</title>
+          <meta
+            name={post.title}
+            content={post.desc}
+          />
+        </Helmet>
         <VideoBenner image={post.image} videoLink={post.videoLink}/>
         <h1 className='my-5 text-white text-5xl font-semibold'>{post.title}</h1>
         <div className='flex gap-3'>
