@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom';
 
 const Benners = () => {
   return (
-    <NavLink to={"/detailMovie"}>
+    <NavLink to={"/detailMovie/1"}>
       <div className='w-full h-[580px] overflow-hidden rounded-2xl relative'>
           <img src={ImageThumb} alt="Benner" className='w-full h-full object-cover'/>
           <div className='w-full absolute bottom-0 left-0 bg-gradient-to-t from-black p-5'>

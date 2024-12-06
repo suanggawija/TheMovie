@@ -1,7 +1,7 @@
 import React from 'react'
 import Youtube from 'react-youtube'
 
-const YoutubePlayer = () => {
+const YoutubePlayer = (props) => {
   const opts = {
     height: '480',
     width: '1050',
@@ -9,9 +9,11 @@ const YoutubePlayer = () => {
       autoplay: 1, // Auto play saat video dimuat
     },
   };
+  // console.log(props)
   return (
     <div className='w-full h-full'>
-        <Youtube videoId='xBzPioph8CI' className='flex justify-center items-center' opts={opts} onReady={onPlayerReady}/>
+      
+        <Youtube videoId={props.videoLink} className='flex justify-center items-center' opts={opts} onReady={onPlayerReady}/>
     </div>
   )
 }

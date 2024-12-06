@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import CardFilm from '../CardFilm/CardFilm'
-import MonsterUnivercityImage from '../../assets/images/thumb.webp'
+// import MonsterUnivercityImage from '../../assets/images/thumb.webp'
 import axios from 'axios'
 import { useNavigate } from 'react-router-dom'
 
@@ -31,7 +31,7 @@ const RecomendationFilm = () => {
             <CardFilm
               key={post.id}
               id={post.id}
-              image={MonsterUnivercityImage} // URL gambar dari API
+              image={post.image} // URL gambar dari API
               title={post.title}
               detailMovie={handleDetailMovie}
             />
