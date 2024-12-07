@@ -4,6 +4,7 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
 
 const CardFilm = (props) => {
+  console.log(props)
   return (
     <div
       onClick={() => props.detailMovie(props.id)}

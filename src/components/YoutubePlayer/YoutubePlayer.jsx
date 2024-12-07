@@ -13,7 +13,7 @@ const YoutubePlayer = (props) => {
   return (
     <div className='w-full h-full'>
       
-        <Youtube videoId={props.videoLink} className='flex justify-center items-center' opts={opts} onReady={onPlayerReady}/>
+        <Youtube videoId={props.youtubevideoid} className='flex justify-center items-center' opts={opts} onReady={onPlayerReady}/>
     </div>
   )
 }
