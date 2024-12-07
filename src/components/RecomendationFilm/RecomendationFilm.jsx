@@ -7,18 +7,19 @@ import { useNavigate } from 'react-router-dom'
 const RecomendationFilm = () => {
   const [post, setPost] = useState([]);
   const navigate = useNavigate()
+  const [movie, setMovie] = useState([])
 
   const handleDetailMovie = (id) => {
     navigate(`/detailMovie/${id}`)
   }
 
-  const getPostAPI = () => {
-    axios.get("http://localhost:3000/posts")
-      .then((res) => setPost(res.data))
+  const getMovieAPI = () => {
+    axios.get("http://127.0.0.1:8000/api/movies")
+      .then((res) => setMovie(res.data))
   }
 
   useEffect(() => {
-    getPostAPI();
+    getMovieAPI();
   }, [])
   return (
     <div>
@@ -26,13 +27,13 @@ const RecomendationFilm = () => {
         Trending Movie
       </div>
       <div className="grid grid-cols-5 gap-5">
-        {post.map((post) => {
+        {movie.map((movie) => {
           return (
             <CardFilm
-              key={post.id}
-              id={post.id}
-              image={post.image} // URL gambar dari API
-              title={post.title}
+              key={movie.id}
+              id={movie.id}
+              image={movie.image}
+              title={movie.title}
               detailMovie={handleDetailMovie}
             />
           );
